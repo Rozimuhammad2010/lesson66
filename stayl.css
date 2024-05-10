@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    padding: 40px 0;
+    background: #EDE6DD;
+
+    
+}
+header .container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.menular{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menular li a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    padding: 80px 0 250px 0;
+    background-color: blanchedalmond;
+
+}
+.hero .container{
+display: flex;
+gap: 200px;
+align-items: center;
+justify-content: space-between;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+}
+.hero-text p{
+ 
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.25200000405311584px;
+margin: 24px 0;
+
+}
+.btn-box{
+position: relative;
+
+}
+.btn-box input{
+    position: absolute;
+    padding: 10px 19px;
+    background-color: white;
+    width: 424px;
+    height: 48px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+}
+.bbbb{
+    position: absolute;
+    padding: 10px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    left: 260px;
+top: 4px;
+}
+.empathy{
+    padding: 80px 0 40px 0;
+    text-align: center;
+    background-image: url(./img/image\ 1.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   color:white;
+   margin-top: -180px;
+}
+.empathy h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 42px;
+
+}
+.empathy p{
+max-width: 672px;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.25200000405311584px;
+text-align: center;
+
+
+max-width: 20px auto;
+}
+.btn2{
+    background-color: inherit;
+    padding: 12px 32px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 32px;
+}
+.works{
+    background: #FFD394;
+padding: 70px 0; 
+}
+.works-box{
+    display: flex;
+    gap: 300px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.works-box h2{
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: left;
+
+}
+.app{
+    display: flex;
+    gap: 30px;
+    margin: 10px 0;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 5px;
+}
+footer{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f1{
+    display: flex;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.btn3{
+padding: 6px 19px;
+background-color: black;
+color: white;
+border-radius: 30px;
+}
+.icons div {
+width: 40px;
+height: 40px;
+background-color: black;
+border-radius: 30%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
